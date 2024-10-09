@@ -2,7 +2,7 @@ Rayane Maati - (Student number: 300414761)
 Yasmine Boudiffa - (Student number: 300422439)
 Hatim Oudghiri - (Student number: 300403811)
 Marc Chopnkeng Nkengfac - (Student number: 300448759)
-Fabrice Beaubrun - (Student number:300424318
+Fabrice Beaubrun - (Student number:300424318)
 
 
 
