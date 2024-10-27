@@ -6,7 +6,7 @@ The themes of the website are well-being and mental health; therefore, the websi
 
 Colours
 ========
-For Moody, colours expose our personality to the customers and represent that we are calm and pleasing.
+For Moody, colours illustrate our will to ease our customers' lives, as these colors embody the purity of our commitment and transparency in serving them.
 These are our color swatches:
 
 - white
@@ -23,8 +23,8 @@ We will be using Poppins for the text and Modak for the headers. Both fonts are 
 
 Links
 =====
-Links will not be underlined and should change color when a user hovers over it.
+Links will be underlined and blue. When a user clicks on it it should open the link in a new window. When the link has already been used once, its color will become purple.
 
 Buttons
 =======
-Buttons will be flat designed using the chosen colors outlined above.
+Buttons will be flat designed with rounded corners. Their color will get darker when we hover on them, adding a subtle shadow for a touch of depth.
