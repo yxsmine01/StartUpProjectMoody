@@ -2,7 +2,7 @@ Overall Look and Feel of Moody
 ===============================
 
 We want the overall look of the website to be minimalist. We will avoid 3d buttons and 3d metal looks.
-The themes of the website are well-being and mental health; therefore, the website should inspire calmness and 
+The themes of the website are well-being and mental health; therefore, the website should inspire calmness and peace of mind.
 
 Colours
 ========
