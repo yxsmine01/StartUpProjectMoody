@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moody</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="style">
 </head>
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rowdies:wght@300;400;700&display=swap');
     body{
-        background-color:#9B7EBD;
+        background-color:#D4BEE4;
         color:white;
     }
     .title{
@@ -22,62 +23,60 @@
         }
     div.aspects {
         width:100%;
-        overflow:auto;
-    }
-    div.aspects div {
-        float:left;
-        width:20%;
+        text-align: center;
+        height: max-content;
     }
     h2 {
         text-align:center;
         font-size:150%;
+        font-family:'Poppins';
     }
     p {
         text-align:center;
-        font-size:100%;
         font-family:'Poppins';
     }
-    div.firstrow {
-        margin-left:150px;
+    .card{
+        background-color: #9B7EBD;
+        width: 250px;
+        padding: 10px;
+        border-radius: 30px;
+        text-align: center;
+        display: inline-block;
+        color: white;
+        margin: 20px;
+        cursor: pointer;
+        box-shadow: 0px 15px 20px rgba(155, 126, 189, .6);
+        transition: transform .3s ease-in;
     }
-    div.secondrow {
-        margin-left:150px;
-    }
-    div.thirdrow {
-        margin-left:150px;
+    .card:hover{
+        background-color: rgba(155, 126, 189, .9);
+        box-shadow: 0px 15px 20px rgba(155, 126, 189, .75);
+        transition: ease-in-out;
+        transform: translateY(-10px);
+        transition: transform .3s ease-in;
     }
 </style>
 <body>
     <h1 class="title">Features</h1>
     <div class="aspects">
-        <div class="firstrow" style="border:2px solid black;">
-           <h2>symbol</h2>
-           <p>some text</p>
+        <div class="card">
+           <h2>FEATURE 1</h2>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores modi nisi deserunt, enim molestiae
+            , vel ducimus sint libero esse placeat dolorem voluptatum necessitatibus harum repellendus
+            , omnis dolorum hic excepturi unde.
+            </p>
         </div>
-        <div class="secondrow" style="border:2px solid black;">
-            <h2>symbol</h2>
-            <p>some text</p>
+        <div class="card">
+            <h2>FEATURE 2</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores modi nisi deserunt, enim molestiae
+                , vel ducimus sint libero esse placeat dolorem voluptatum necessitatibus harum repellendus
+                , omnis dolorum hic excepturi unde.</p>
         </div>
-        <div class="thirdrow" style="border:2px solid black;">
-            <h2>symbol</h2>
-            <p>some text</p>
-        </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <div class="aspects">
-        <div class="firstrow" style="border:2px solid black;">
-           <h2>symbol</h2>
-           <p>some text</p>
-        </div>
-        <div class="secondrow" style="border:2px solid black;">
-            <h2>symbol</h2>
-            <p>some text</p>
-        </div>
-        <div class="thirdrow" style="border:2px solid black;">
-            <h2>symbol</h2>
-            <p>some text</p>
+        <div class="card">
+            <h2>FEATURE 3</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores modi nisi deserunt, enim molestiae
+                , vel ducimus sint libero esse placeat dolorem voluptatum necessitatibus harum repellendus
+                , omnis dolorum hic excepturi unde.</p>
         </div>
     </div>
 </body>
