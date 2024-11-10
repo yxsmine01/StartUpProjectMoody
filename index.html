@@ -7,17 +7,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/nav.css">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
         body {
             background-color:#D4BEE4;
             font-family: 'Poppins';
+            margin: 0;
         }
         .title {
             font-family: "Modak",system-ui; 
             font-weight: 400;
             font-style: normal;
-            font-size: 60px;
+            font-size: 80px;
             text-align: center;
             color: #3B1E54;
+            margin: 20px;
         }
         h1 {
             font-size:300%
@@ -37,6 +40,7 @@
             font-size:150%;
             margin-left:80px;
             margin-right:80px;
+            color: #3B1E54;
         }
         div.toppage {
             width:100%;
@@ -49,16 +53,23 @@
         img {
             width:350px;
             height:350px;
-            margin-left:250px;
-            margin-top:25px;
+            margin-left:230px;
+            margin-top:85px;
         }
         div.secline {
             width:100%;
             overflow:auto;
+            background-color: #3B1E54;
+            margin: 0px;
         }
         div.secline div {
             width:50%;
             float:left;
+        }
+        #headLine{
+            color: white;
+            font-weight: bold;
+            font-family: 'Poppins';
         }
         .button {
             position: relative;
@@ -146,20 +157,19 @@
             <li><a href="contact.html">Contact US</a></li>
         </ul>
     </nav>
-<hr>
+
 <div class="secline">
-    <div>
+    <div id="headLine">
         <pre>Health,
-Reinvented.
+    Reinvented.
         </pre>
     </div>
     <div>
-        <img id="Smile" src="https://th.bing.com/th/id/R.a7ad7e9378d0bfffcdbf678c06d23d51?rik=fqO9aAM7idw54A&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f1061%2f1924%2fproducts%2fEmoji_Icon_-_Smiling_grande.png%3fv%3d1542446805&ehk=4rR6Rxo70CGiX%2b3EjRpec2H2Npl1TvKzX6fqyCCtwuU%3d&risl=&pid=ImgRaw&r=0" alt="Smiling emoji">
-        
+        <!-- <img id="Smile" src="https://th.bing.com/th/id/R.a7ad7e9378d0bfffcdbf678c06d23d51?rik=fqO9aAM7idw54A&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f1061%2f1924%2fproducts%2fEmoji_Icon_-_Smiling_grande.png%3fv%3d1542446805&ehk=4rR6Rxo70CGiX%2b3EjRpec2H2Npl1TvKzX6fqyCCtwuU%3d&risl=&pid=ImgRaw&r=0" alt="Smiling emoji"> -->
+        <img id="Smile" src="imgs/f1.svg" alt="Smiling emoji">        
     </div>
 </div>
-    <hr>
-    <h5 class="title">moody
+    <h5 class="title">Moody
     </h5>
     <p>
         Meet Moody, your personal AI health assistant that tracks your
@@ -172,14 +182,15 @@ Reinvented.
         all<br> tailored just for you.
     </p>
     <script>
-        let images = ["https://th.bing.com/th/id/R.a7ad7e9378d0bfffcdbf678c06d23d51?rik=fqO9aAM7idw54A&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f1061%2f1924%2fproducts%2fEmoji_Icon_-_Smiling_grande.png%3fv%3d1542446805&ehk=4rR6Rxo70CGiX%2b3EjRpec2H2Npl1TvKzX6fqyCCtwuU%3d&risl=&pid=ImgRaw&r=0","https://images.vexels.com/media/users/3/134551/isolated/preview/1fb74455a668b00b9ec2ab7d3092008b-emoticon-emoji-sad-by-vexels.png", "https://cdn.shopify.com/s/files/1/1061/1924/files/Very_Angry_Emoji.png?9898922749706957214", "https://clipartcraft.com/images/surprised-emoji-clipart-feeling-scared-1.png"]
+        // let images = ["https://th.bing.com/th/id/R.a7ad7e9378d0bfffcdbf678c06d23d51?rik=fqO9aAM7idw54A&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f1061%2f1924%2fproducts%2fEmoji_Icon_-_Smiling_grande.png%3fv%3d1542446805&ehk=4rR6Rxo70CGiX%2b3EjRpec2H2Npl1TvKzX6fqyCCtwuU%3d&risl=&pid=ImgRaw&r=0","https://images.vexels.com/media/users/3/134551/isolated/preview/1fb74455a668b00b9ec2ab7d3092008b-emoticon-emoji-sad-by-vexels.png", "https://cdn.shopify.com/s/files/1/1061/1924/files/Very_Angry_Emoji.png?9898922749706957214", "https://clipartcraft.com/images/surprised-emoji-clipart-feeling-scared-1.png"]
+        let images = ["imgs/f1.svg","imgs/f2.svg","imgs/f3.svg","imgs/f4.svg","imgs/f5.svg"];
         let index = 0;
 
         function changeImage() {
             index = (index + 1) % images.length;
             document.getElementById("Smile").src = images[index];
         }
-        setInterval(changeImage, 2000);
+        setInterval(changeImage, 1000);
 
         const buttons = document.querySelectorAll('.button'); 
         buttons.forEach(button => {
