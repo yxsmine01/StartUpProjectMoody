@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moody</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/nav.css">
     <style>
         body {
             background-color:#D4BEE4;
+            font-family: 'Poppins';
         }
         .title {
             font-family: "Modak",system-ui; 
@@ -129,26 +131,21 @@
 </head>
 
 <body>
-<div class="toppage">
-    <div>
-        <h1>MOODY</h1>
-    </div>
-    <div>
-        <button onclick="toggleDropdown()" class="button button1 dropdown-button" style="background-color: #9B7EBD;">Product</button>
-        <div id="dropdown" class="dropdown-menu">
-            <a href="https://yxsmine01.github.io/StartUpProjectMoody/features.html">Feature</a>
-            <a href="https://yxsmine01.github.io/StartUpProjectMoody/pricing.html">Pricing</a>
-            <a href="https://yxsmine01.github.io/StartUpProjectMoody/review.html">Reviews</a>
-        </div>
-    </div>
-    <div>
-        <button onclick="window.location.href='https://yxsmine01.github.io/StartUpProjectMoody/about.html';" class="button button2" style="background-color: #9B7EBD;">About us</button>
-    </div>
-    <div>
-        <button onclick="window.location.href='https://yxsmine01.github.io/StartUpProjectMoody/contact.html';" class="button button3" style="background-color: #9B7EBD;">Contact us</button>
-    </div>
-
-</div>
+    <nav>
+        <a href="index.html"><img src="imgs/logo.png"></a>
+        <ul>
+            <li id="productLi">
+                <a>Product</a>
+                <div class="dropContent">
+                    <a href="features.html">Features</a>
+                    <a href="pricing.html">Pricing</a>
+                    <a href="review.html">Reviews</a>
+                </div>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact US</a></li>
+        </ul>
+    </nav>
 <hr>
 <div class="secline">
     <div>
