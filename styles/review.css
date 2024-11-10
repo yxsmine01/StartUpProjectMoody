@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Rowdies:wght@300;400;700&display=swap');
+body {
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    background-color: #D4BEE4;
+}
+.title {
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+    color: #3B1E54;
+    cursor: pointer;
+}
+#reviews {
+    max-width: 900px;
+    margin: 20px auto;
+    margin-bottom: 50px;
+    padding: 20px;
+
+    background-color: #9B7EBD;
+    width: max-content;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 15px 20px rgba(155, 126, 189, .6);
+    transition: transform .3s ease-in;
+}
+h2 {
+    text-align: center;
+    color: #fff;
+}
+.review {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+.review img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+}
+.review h3 {
+    margin: 0;
+    color: #3B1E54;
+}
+.review p {
+    margin: 5px 0;
+    color: #fff; /* Couleur des commentaires */
+}
+.review .stars {
+    color: #f3ce12;
+    font-size: 24px; /* Taille des étoiles */
+}
+@media (max-width: 600px) {
+    #reviews {
+        padding: 10px;
+    }
+    .review {
+        padding: 10px 0;
+    }
+}

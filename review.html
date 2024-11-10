@@ -4,74 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Rowdies:wght@300;400;700&display=swap');
-        body {
-            font-family: "Poppins";
-            margin: 0;
-            padding: 0;
-            background-color: #D4BEE4;
-        }
-        .title {
-            font-family: "Modak", system-ui;
-            font-weight: 400;
-            font-style: normal;
-            font-size: 60px;
-            text-align: center;
-            color: #3B1E54;
-        }
-        #reviews {
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            text-align: center;
-            color: #333;
-        }
-        .review {
-            display: flex;
-            align-items: center;
-            border-bottom: 1px solid #ddd;
-            padding: 20px 0;
-        }
-        .review img {
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            margin-right: 20px;
-        }
-        .review h3 {
-            margin: 0;
-            color: #555;
-        }
-        .review p {
-            margin: 5px 0;
-            color: #3B1E54; /* Couleur des commentaires */
-        }
-        .review .stars {
-            color: #f39c12;
-            font-size: 24px; /* Taille des étoiles */
-        }
-        @media (max-width: 600px) {
-            #reviews {
-                padding: 10px;
-            }
-            .review {
-                padding: 10px 0;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles/review.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles/nav.css">
 </head>
 <body>
-    <div class="title">reviews</div>
+    <nav>
+        <a href="index.html"><img src="imgs/logo.png"></a>
+        <ul>
+            <li id="productLi">
+                <a>Product</a>
+                <div class="dropContent">
+                    <a href="features.html">Features</a>
+                    <a href="pricing.html">Pricing</a>
+                    <a href="review.html">Reviews</a>
+                </div>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact US</a></li>
+        </ul>
+    </nav>
+
+    <div class="title">Reviews</div>
     <section id="reviews">
         <h2>What our clients have to say!</h2>
         <div class="review">
-            <img src="chemin/vers/image1.jpg" alt="Photo du client">
+            <img src="imgs/p1.jpg" alt="Photo du client">
             <div>
                 <h3>James Smith</h3>
                 <p class="stars">
@@ -86,7 +44,7 @@
             </div>
         </div>
         <div class="review">
-            <img src="chemin/vers/image2.jpg" alt="Photo du client">
+            <img src="imgs/p2.jpg" alt="Photo du client">
             <div>
                 <h3>Sophia Wilson</h3>
                 <p class="stars">
@@ -100,7 +58,7 @@
             </div>
         </div>
         <div class="review">
-            <img src="chemin/vers/image3.jpg" alt="Photo du client">
+            <img src="imgs/p3.jpg" alt="Photo du client">
             <div>
                 <h3>Michael Thompson</h3>
                 <p class="stars">
@@ -114,7 +72,7 @@
             </div>
         </div>
         <div class="review">
-            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fprofile-pic-woman&psig=AOvVaw13vlpXFX5yVrpNbXXsMdTx&ust=1730072541538000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjR-pWfrYkDFQAAAAAdAAAAABAE" alt="Photo du client">
+            <img src="imgs/p4.jpeg" alt="Photo du client">
             <div>
                 <h3>Emily Carter</h3>
                 <p class="stars">
