@@ -4,66 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pricing</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/pricing.css">
+    <link rel="stylesheet" href="styles/nav.css">
 </head>
 <body>
-
-    <r>Pricing</r>
-    <t>Find the perfect fit for your needs!</t>
+    <nav>
+        <a href="index.html"><img src="imgs/logo.png"></a>
+        <ul>
+            <li id="productLi">
+                <a>Product</a>
+                <div class="dropContent">
+                    <a href="features.html">Features</a>
+                    <a href="pricing.html">Pricing</a>
+                    <a href="review.html">Reviews</a>
+                </div>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact US</a></li>
+        </ul>
+    </nav>
+    <div class="title">Our Pricing Plans</div>
     <div class="pricing">
-        <a>Basic
-<pre id="bp">
-_______________
-Free
-_______________
+        <div class="pricingCard">
+            <div class="pricingTitle">Basic</div>
+            <div class="price">Free</div>
+            <div class="features">
+                <div class="feature">&bull; Basic Wellness Tracking</div>
+                <div class="feature">&bull; Weekly Summary</div>
+                <div class="feature">&bull; Mindfulness Reminders</div>
+                <div class="feature">&bull; Basic Tips & Recommendations</div>
+            </div>
+            <button>Choose Plan</button>
+        </div>
 
-Feature 1
+        <div class="pricingCard" id="premium">
+            <div class="pricingTitle">Premium</div>
+            <div class="price">9.99$</div>
+            <div class="features">
+                <div class="feature">&bull; Enhanced Wellness Monitoring</div>
+                <div class="feature">&bull; Daily Summaries</div>
+                <div class="feature">&bull; Customized Health Tips</div>
+                <div class="feature">&bull; Mood Pattern Analysis</div>
+            </div>
+            <button>Choose Plan</button>
+        </div>
 
-Feature 2
+        <div class="pricingCard">
+            <div class="pricingTitle">Premium Plus</div>
+            <div class="price">14.99$</div>
+            <div class="features">
+                <div class="feature">&bull; All other features</div>
+                <div class="feature">&bull;Personalized Recommendations</div>
+                <div class="feature">&bull; 1-on-1 Wellness Chat</div>
+                <div class="feature">&bull; Monthly Wellness Report</div>
+            </div>
+            <button>Choose Plan</button>
+        </div>
 
-Feature 3
-       </pre>
-        </a>
-        <b>Premium
-        <pre id="pp">
-_______________
-19.99$/month
-_______________
-            
-Feature 1
-            
-Feature 2
-            
-Feature 3
+        <div class="customPlan">
+            <p>Are you a business?</p> 
+            <button onclick="location.href='./contact.html'">Contact us for a customized plan!</button>
+        </div>
 
-Feature 4
-
-Feature 5
-
-        </pre>
-        </b>
-        <c>Premium+
-        <pre id="p+p">
-_______________
-29.99$/month
-_______________
-            
-Feature 1
-            
-Feature 2
-            
-Feature 3
-
-Feature 4
-
-Feature 5
-
-Feature 6
-        </pre>
-        </c>
     </div>
-    
-    <button type="button" class="button" id="pbutton">Buy now</button>
-    <button type="button" class="button" id="ppbutton">Buy now</button>
 </body>
 </html>
