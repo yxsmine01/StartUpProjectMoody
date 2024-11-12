@@ -1,4 +1,4 @@
-Pitch
+Pitch Deck : https://www.canva.com/design/DAGVAduFjvM/YcSGFWxQ3NGkucpvwsU44A/editutm_content=DAGVAduFjvM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 1. Introduction (Présentateur 1)
 Accroche : "Imaginez une application qui peut révéler l’état de votre santé mentale et physique en un instant, simplement en scannant votre visage. Plus besoin de rendez-vous, d’attente… Voici Moodi, l’application tout-en-un qui utilise l’intelligence artificielle et la reconnaissance faciale pour vous offrir un aperçu immédiat de votre bien-être."
