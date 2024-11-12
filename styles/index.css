@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+body {
+    background-color:#D4BEE4;
+    font-family: 'Poppins';
+    margin: 0;
+}
+.title {
+    font-family: "Modak",system-ui; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    text-align: center;
+    color: #3B1E54;
+    margin: 20px;
+}
+h1 {
+    font-size:300%
+}
+pre {
+    font-family: 'Poppins';
+    margin-left:50px;
+    font-size:70px;
+}   
+h5 {
+    text-align:center;
+    font-size:300%;
+}
+p {
+    text-align:center;
+    font-family:'Poppins';
+    font-size:150%;
+    margin-left:80px;
+    margin-right:80px;
+    color: #3B1E54;
+}
+.imgDiv{
+    text-align: center;
+    margin: auto;
+}
+img {
+    width:350px;
+    height:350px;
+}
+div.secline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    overflow:hidden;
+    background-color: #3B1E54;
+    margin: 0px;
+}
+#headLine{
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+@media only screen and (max-width: 650px) {
+    .title{
+        font-size: 50px;
+        margin: 20px;
+    }
+    pre{
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    img{
+        margin-top: -25px;
+        margin-bottom: 25px;
+    }
+    div.secline{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    pre{
+        font-size: 60px;
+    }
+    img{
+        width: 300px;
+        height: 300px;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    pre{
+        font-size: 50px;
+    }
+    img{
+        width: 250px;
+        height: 250px;
+        margin-right: 5px;
+    }
+}
