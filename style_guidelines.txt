@@ -1,0 +1,30 @@
+Overall Look and Feel of Moody
+===============================
+
+We want the overall look of the website to be minimalist. We will avoid 3d buttons and 3d metal looks.
+The themes of the website are well-being and mental health; therefore, the website should inspire calmness and peace of mind.
+
+Colours
+========
+For Moody, colours illustrate our will to ease our customers' lives, as these colors embody the purity of our commitment and transparency in serving them.
+These are our color swatches:
+
+- white
+- #3B1E54
+- #9B7EBD
+
+Iconography
+===========
+We will focus on using simple icons, in design and color, which adhere to the overall look and feel of the website.
+
+Typography
+==========
+We will be using Poppins for the text and Modak for the headers. Both fonts are from Google Fonts.
+
+Links
+=====
+Links will be underlined and blue. When a user clicks on it it should open the link in a new window. When the link has already been used once, its color will become purple.
+
+Buttons
+=======
+Buttons will be flat designed with rounded corners. Their color will get darker when we hover on them, adding a subtle shadow for a touch of depth.
